@@ -1,0 +1,18 @@
+﻿/* Custom styles for the presentation style mods */
+.Style1 {
+    font-family: Consolas, 'Courier New';
+    font-size: 12pt;
+    color: darkgreen;
+}
+
+.Style2 {
+    font-family: Consolas, 'Courier New';
+    font-size: 12pt;
+    color: darkgoldenrod;
+}
+
+.Style3 {
+    font-family: Consolas, 'Courier New';
+    font-size: 12pt;
+    color: dodgerblue;
+}

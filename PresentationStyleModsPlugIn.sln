@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PresentationStyleModsPlugIn", "PresentationStyleModsPlugIn\PresentationStyleModsPlugIn.csproj", "{BD799B3F-416B-4119-9DBA-4E70B64AFF67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1826A158-65A4-40ED-A98C-CF2A0C1615EB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD799B3F-416B-4119-9DBA-4E70B64AFF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD799B3F-416B-4119-9DBA-4E70B64AFF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD799B3F-416B-4119-9DBA-4E70B64AFF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD799B3F-416B-4119-9DBA-4E70B64AFF67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AF953BF-441E-4D67-B6F6-DB96F23BEAB0}
+	EndGlobalSection
+EndGlobal
