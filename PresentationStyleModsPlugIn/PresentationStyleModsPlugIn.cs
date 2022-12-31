@@ -2,7 +2,7 @@
 // System  : Sandcastle Help File Builder Presentation Style Mods Plug-In
 // File    : PresentationStyleModsPlugIn.cs
 // Author  : Eric Woodruff  (Eric@EWoodruff.us)
-// Updated : 08/07/2022
+// Updated : 12/30/2022
 // Note    : Copyright 2022, Eric Woodruff, All rights reserved
 //
 // This file contains the class used to demonstrate how a presentation style can be extended in various ways
@@ -119,7 +119,7 @@ namespace PresentationStyleMods
 
             if(context.BuildStep == BuildStep.CreateBuildAssemblerConfigs)
             {
-                var transformation = builder.PresentationStyle.TopicTranformation;
+                var transformation = builder.PresentationStyle.TopicTransformation;
 
                 #region Reorder/remove API topic sections
                 //=====================================================================
@@ -206,7 +206,7 @@ namespace PresentationStyleMods
                     foreach(string path in builder.HelpFormatOutputFolders)
                     {
                         string destPath = Path.Combine(path, "html",
-                            builder.PresentationStyle.TopicTranformation.StyleSheetPath,
+                            builder.PresentationStyle.TopicTransformation.StyleSheetPath,
                             Path.GetFileName(stylesheet)).Replace("/", "\\");
 
                         builder.ReportProgress(path);
@@ -251,7 +251,7 @@ namespace PresentationStyleMods
         /// <param name="e">The event arguments</param>
         private void Transformation_RenderStarting(object sender, RenderTopicEventArgs e)
         {
-            var transformation = builder.PresentationStyle.TopicTranformation;
+            var transformation = builder.PresentationStyle.TopicTransformation;
 
             // Only add it for Help 1 and Website output
             if((transformation.SupportedFormats & (HelpFileFormats.HtmlHelp1 | HelpFileFormats.Website)) != 0)
