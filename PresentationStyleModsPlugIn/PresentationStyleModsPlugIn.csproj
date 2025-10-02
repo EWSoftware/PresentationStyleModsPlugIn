@@ -3,7 +3,7 @@
 			 for information on why conditional target frameworks are used. -->
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
 		<!-- Use the full framework for debugging -->
-		<TargetFramework>net47</TargetFramework>
+		<TargetFramework>net48</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)'=='Release'">
@@ -37,10 +37,12 @@
 		<PackageProjectUrl>https://github.com/EWSoftware/PresentationStyleModsPlugIn</PackageProjectUrl>
 		<PackageLicenseExpression>MS-PL</PackageLicenseExpression>
 		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 		<IsTool>true</IsTool>
 		<NoWarn>$(NoWarn);NU5128</NoWarn>
 		<ContentTargetFolders>tools\</ContentTargetFolders>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<LangVersion>13.0</LangVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -62,12 +64,12 @@
 			<Pack>true</Pack>
 			<PackagePath>build\</PackagePath>
 		</None>
+		<None Include="ReadMe.md" Pack="True" PackagePath="\" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="System.ComponentModel.Composition" Version="9.0.3" />
-		<PackageReference Include="EWSoftware.Sandcastle.Core" Version="2025.3.22" />
-		<PackageReference Include="EWSoftware.SandcastleBuilder.Utils" Version="2025.3.22" />
+		<PackageReference Include="System.ComponentModel.Composition" Version="9.0.9" />
+		<PackageReference Include="EWSoftware.Sandcastle.Core" Version="2025.9.30" />
 	</ItemGroup>
 
 </Project>

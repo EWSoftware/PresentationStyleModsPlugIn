@@ -17,7 +17,7 @@
     <RootNamespace>PresentationStyleModsDocs</RootNamespace>
     <Name>PresentationStyleModsDocs</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Framework 4.7.2</FrameworkVersion>
+    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
     <OutputPath>Help\</OutputPath>
     <HtmlHelpName>PresentationStyleModsDocs</HtmlHelpName>
     <Language>en-US</Language>
@@ -33,7 +33,7 @@
     <HelpFileFormat>Website</HelpFileFormat>
     <SyntaxFilters>Standard</SyntaxFilters>
     <PresentationStyle>Default2022</PresentationStyle>
-    <CleanIntermediates>True</CleanIntermediates>
+    <CleanIntermediates>False</CleanIntermediates>
     <KeepLogFile>True</KeepLogFile>
     <DisableCodeBlockComponent>False</DisableCodeBlockComponent>
     <IndentHtml>False</IndentHtml>

@@ -22,8 +22,8 @@ using System.Runtime.InteropServices;
 internal static partial class AssemblyInfo
 {
     // Product version
-    public const string ProductVersion = "2022.8.6.0";
+    public const string ProductVersion = "2025.9.30.0";
 
     // Assembly copyright information
-    public const string Copyright = "Copyright \xA9 2022, Eric Woodruff, All Rights Reserved.";
+    public const string Copyright = "Copyright \xA9 2022-2025, Eric Woodruff, All Rights Reserved.";
 }
